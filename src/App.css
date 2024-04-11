@@ -1,0 +1,84 @@
+.modal-dialog .add-user-form-container {
+  margin-top: 20px;
+}
+
+.modal-dialog .add-user-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+.modal-dialog .add-user-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.modal-dialog .add-user-form input[type="text"],
+.modal-dialog .add-user-form input[type="email"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.modal-dialog .add-user-form button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.modal-dialog .add-user-form button[type="submit"] {
+  background-color: #28a745;
+}
+
+.modal-dialog .add-user-form button[type="submit"]:hover,
+.modal-dialog .add-user-form button[type="button"]:hover {
+  background-color: #0056b3;
+}
+
+.modal-dialog .add-user-form button[type="button"] {
+  background-color: #dc3545;
+}
+
+.modal-dialog .add-user-form button[type="button"]:hover {
+  background-color: #c82333;
+}
+
+.users-table-container {
+  margin-top: 40px;
+  max-width: 800px;
+  margin: 40px auto 0 auto;
+}
+
+.users-table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.users-table th, .users-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.users-table th {
+  background-color: #f2f2f2;
+}
+
+.users-table td input[type="text"] {
+  width:95%;
+  padding: 5px;
+}
+
+.users-table-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.users-table-actions button {
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
